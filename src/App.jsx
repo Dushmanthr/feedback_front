@@ -8,7 +8,7 @@ export default function FeedbackCollector() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
-  const API_URL = 'http://localhost:3001/api';
+  const API_URL = ' https://feedback-back-nrf3.onrender.com/api';
 
   useEffect(() => {
     fetchFeedbacks();
